@@ -1,5 +1,5 @@
 # Seenday - upload page
-Страница доступна по адресу /lk/upload/.
+Страница доступна по адресу /lk/unload/.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
