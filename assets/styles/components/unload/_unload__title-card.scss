@@ -1,0 +1,32 @@
+.title-card {
+    padding: 15px;
+    margin-bottom: 20px;
+    &__subheading {
+        display: inline-block;
+        width: 100%;
+        margin-top: 5px;
+    }
+    &__heading {
+        font-size: 20px;
+        @include active-by("xslg") {
+            font-size: 18px;
+        }
+    }
+    &__list {
+        list-style: none;
+        padding-inline-start: inherit;
+        margin: 10px 0;
+        li {
+            position: relative;
+            &:before {
+                content: '';
+                width: 6px;
+                height: 1px;
+                background-color: black;
+                position: absolute;
+                left: -13px;
+                top: 10px;
+            }
+        }
+    }
+}
